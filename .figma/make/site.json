@@ -1,0 +1,10 @@
+{
+  "description": "Efficiently monitor and manage the movement of goods with real-time tracking and tracing capabilities, enhancing supply chain visibility for businesses.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
