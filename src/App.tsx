@@ -12,8 +12,6 @@ import Reports from "./pages/Reports";
 import Admin from "./pages/Admin";
 import Products from "./pages/Products";
 
-import logo from "./assets/sowbaghya.png";
-
 type Page =
   | "dashboard"
   | "products"
@@ -388,7 +386,7 @@ function AppShell() {
             /* Logo image when expanded */
             <>
               <img
-                src={logo}
+                src="https://res.cloudinary.com/dazbmvoeq/image/upload/v1788259404/sowbaghya_logo_gelspt.png"
                 alt="TrackTrace"
                 className="w-28 h-10 object-contain"
               />
