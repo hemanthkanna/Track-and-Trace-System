@@ -12,7 +12,7 @@ import Reports from "./pages/Reports";
 import Admin from "./pages/Admin";
 import Products from "./pages/Products";
 
-import logo from "./assets/sowbaghya logo.png";
+import logo from "./assets/sowbaghya.png";
 
 type Page =
   | "dashboard"
