@@ -385,11 +385,20 @@ function AppShell() {
           ) : (
             /* Logo image when expanded */
             <>
-              <img
+              {/* <img
                 src="https://res.cloudinary.com/dazbmvoeq/image/upload/v1788259404/sowbaghya_logo_gelspt.png"
                 alt="TrackTrace"
                 className="w-28 h-10 object-contain"
-              />
+              /> */}
+              <div className="text-[13px] font-bold leading-none text-white">
+                TrackTrace
+              </div>
+              <div
+                className="text-[9px] mt-0.5 uppercase tracking-widest"
+                style={{ color: "#4a6080" }}
+              >
+                Platform
+              </div>
             </>
           )}
         </div>
